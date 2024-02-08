@@ -1,0 +1,20 @@
+File di configurazione : Physical_id duplicati 
+NESSUN PHYSICAL_ID DUPLICATO
+
+
+File di configurazione : Seriali duplicati (esclusi i Sensori di Temperatura con lo stesso Seriale)
+NESSUN SERIALE DUPLICATO
+
+
+CSV dal Campo : Physical_id mancanti
+NESSUN PHYSICAL_ID MANCANTE
+
+
+CSV dal Campo : Physical_id errati 
+NESSUN PHYSICAL_ID ERRATO
+
+
+Database : Physical_id errati 
+NESSUN PHYSICAL_ID ERRATO
+
+
