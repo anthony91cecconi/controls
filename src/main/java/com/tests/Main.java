@@ -19,6 +19,7 @@ import com.tests.cassandra.MyRequestBody;
 import com.tests.cassandra.MyResponse;
 import com.tests.fileconf.Session;
 import com.tests.generic.store.FconfStore;
+import com.tests.guidateste2e.Tests;
 import com.tests.utility.Utility;
 import com.tests.generic.store.FconfStore;
 
@@ -30,10 +31,12 @@ public class Main {
         Main.store = new FconfStore();
         Utility.scan = new Scanner(System.in);
         // (menu();
-        Session session = new Session();
-        session.menu();
+        // Session session = new Session();
+        // session.menu();
         // testHttp();
         // testToml();
+        Tests tests = new Tests();
+        tests.session();
         Utility.scan.close();
 
     }

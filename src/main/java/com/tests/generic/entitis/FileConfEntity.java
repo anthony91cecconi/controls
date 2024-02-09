@@ -5,6 +5,7 @@ public class FileConfEntity {
     private String physical_id;
     private String numeroSeriale;
     private String numeroColonna;
+    private String asset;
     // private String ucl;
 
     // i problemi
@@ -20,7 +21,8 @@ public class FileConfEntity {
     // esiste nel DB
     private boolean isInDb;
 
-    public FileConfEntity(String nome, String physical_id, String numeroSeriale, String numeroColonna, String ucl) {
+    public FileConfEntity(String nome, String physical_id, String numeroSeriale, String numeroColonna, String ucl,
+            String asset) {
         this.nome = nome;
         this.physical_id = physical_id;
         this.numeroSeriale = numeroSeriale;
@@ -29,7 +31,7 @@ public class FileConfEntity {
         } catch (Exception e) {
             System.out.println("qui ci sono problemi");
         }
-
+        this.asset = asset;
         // this.ucl = ucl;
         this.physicalDuplicate = false;
         this.serialDuplicate = false;
