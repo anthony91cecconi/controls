@@ -45,7 +45,7 @@ public class Session {
                     menu();
                     break;
                 case 2:
-                    sessionMax();
+                    sessionMax(false);
                     menu();
                     break;
                 default:
@@ -54,10 +54,10 @@ public class Session {
         }
     }
 
-    private void sessionMax() throws SQLException, IOException {
+    public void sessionMax(boolean onlyOne) throws SQLException, IOException {
         int count = 0;
         while (true) {
-            if (count > 0 && !Utility.yesOrNo("ancora ? si o no?")) {
+            if (count > 0 && !Utility.yesOrNo("ancora ? si o no?") || !onlyOne) {
                 break;
             }
             // connessione con file di configurazione e db
