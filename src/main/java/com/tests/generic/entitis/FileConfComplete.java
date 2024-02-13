@@ -7,8 +7,13 @@ public class FileConfComplete {
     private String asset;
 
     public FileConfComplete(List<FileConfEntity> sensors, String asset) {
-        this.sensors = sensors;
-        this.asset = asset;
+        if (sensors != null && sensors.size() > 0) {
+            this.sensors = sensors;
+            this.asset = asset;
+        } else {
+            this.asset = "";
+        }
+
     }
 
     public String getAsset() {

@@ -21,9 +21,9 @@ public class ConnectorDbMysql {
     private Connection connection;
 
     public ConnectorDbMysql() throws SQLException {
-        System.out.println("quale ambiente ? \n1 cert \n2 demo");
+        System.out.println("quale ambiente ? \n1 cert \n2 demo \n3prod");
 
-        switch (Utility.getNumber(1, 2)) {
+        switch (Utility.getNumber(1, 3)) {
             case 1:
                 this.host = "10.207.24.68";
                 this.port = 3306;
@@ -32,11 +32,18 @@ public class ConnectorDbMysql {
                 this.password = "urewt__kb4333";
                 break;
             case 2:
-                this.host = "10.207.24.68";
+                this.host = "10.207.19.144";
+                this.port = 3306;
+                this.database = "nrg_sem_station";
+                this.username = "hipuser";
+                this.password = "g10TT0!123stella";
+                break;
+            case 3:
+                this.host = "10.207.36.68";
                 this.port = 3306;
                 this.database = "nrg_sem_station";
                 this.username = "remoteop";
-                this.password = "urewt__kb4333";
+                this.password = "u834vj$h43uiji";
                 break;
             default:
                 break;

@@ -9,6 +9,8 @@ public class ConfToConf {
 
     public ConfToConf(List<FileConfEntity> conf) {
         this.conf = conf;
+        controlDuplicatesPhysicalId();
+        controlDuplicatesSerial();
     }
 
     // questo metodo verifica che nel file di configurazione non ci siano

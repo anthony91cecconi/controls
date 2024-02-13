@@ -1,0 +1,348 @@
+[[DeviceList]]
+     Name = "ACC002_CAM01_Z"	
+     Description = "0305688C"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "0305688C"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC03_CAM01_Z"	
+     Description = "03056890"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03056890"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC04_CAM02_Z"	
+     Description = "03056F2B"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03056F2B"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC05_CAM02_Z"	
+     Description = "03056F68"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03056F68"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC06_CAM02_Z"	
+     Description = "03056E85"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03056E85"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC07_CAM03_Z"	
+     Description = "0306892A"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "0306892A"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC08_CAM03_Z"	
+     Description = "03068A06"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03068A06"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC09_CAM03_Z"	
+     Description = "03056A87"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03056A87"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC10_CAM01_Z"	
+     Description = "03068950"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03068950"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC11_PI01_X"	
+     Description = "03068A0F"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03068A0F"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC12_CAM02_Z"	
+     Description = "03056880"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03056880"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC13_PI02_X"	
+     Description = "03056920"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03056920"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC14_CAM03_Z"	
+     Description = "030689BB"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "030689BB"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC15_CAM01_Z"	
+     Description = "03056F77"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03056F77"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC16_CAM01_Z"	
+     Description = "03056967"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03056967"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC17_CAM01_Z"	
+     Description = "03056C4B"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03056C4B"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC18_CAM02_Z"	
+     Description = "03056DD3"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03056DD3"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC19_CAM02_Z"	
+     Description = "03056E8D"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03056E8D"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC20_CAM02_Z"	
+     Description = "03056F65"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03056F65"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC21_CAM03_Z"	
+     Description = "03056B60"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03056B60"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC22_CAM03_Z"	
+     Description = "03056ABC"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03056ABC"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC23_CAM03_Z"	
+     Description = "030569E9"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "030569E9"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC24_SP01_XYZ"	
+     Description = "030569CD"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "030569CD"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC24_SP01_XYZ"	
+     Description = "030569CD"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "030569CD"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC24_SP01_XYZ"	
+     Description = "030569CD"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "030569CD"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC25_PI01_Y"	
+     Description = "030568AA"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "030568AA"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "ACC26_PI02_Y"	
+     Description = "03068ADB"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "03068ADB"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "SEM01_PI01"	
+     Description = "2301411F"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "2301411F"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"
+[[DeviceList]]
+     Name = "SEM02_PI02"	
+     Description = "2301418F"	
+     ProfileName = "temperatura"
+     Labels = ["Pila","centrale","PoD","CASALDELMARMO"]
+     [DeviceList.Protocols]
+          [DeviceList.Protocols.mqtt]
+               GatewayId = "2301418F"
+               AssetCode ="13001016300"  
+          [DeviceList.Protocols.Layer]   
+               "svg/CASALDELMARMO2.svg" = "ALLARME_T-2301691F"
+               "svg/CASALDELMARMO.svg" = "ALLARME_121801"

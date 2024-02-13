@@ -20,6 +20,7 @@ import com.tests.cassandra.MyResponse;
 import com.tests.fileconf.Session;
 import com.tests.generic.store.FconfStore;
 import com.tests.guidateste2e.Tests;
+import com.tests.toml.Toml;
 import com.tests.utility.Utility;
 import com.tests.generic.store.FconfStore;
 
@@ -30,25 +31,26 @@ public class Main {
 
         Main.store = new FconfStore();
         Utility.scan = new Scanner(System.in);
-        // (menu();
-        // Session session = new Session();
-        // session.menu();
-        // testHttp();
-        // testToml();
-        Tests tests = new Tests();
-        tests.session();
+        Toml.newToml();
+        // menu();
         Utility.scan.close();
 
     }
 
     public static void menu() throws SQLException, IOException {
 
-        System.out.println("menu iniziale\n selezionare attività \n 1) contrtollo seriali");
+        System.out.println(
+                "menu iniziale\n selezionare attività \n 1) contrtollo seriali \n 2) guida ai test (parziale in testing)");
 
-        switch (Utility.getNumber(1, 1)) {
+        switch (Utility.getNumber(1, 2)) {
             case 1:
                 Session session = new Session();
                 session.menu();
+                menu();
+                break;
+            case 2:
+                Tests tests = new Tests();
+                tests.session();
                 menu();
                 break;
 

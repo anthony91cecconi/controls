@@ -1,0 +1,14 @@
+# Ignora tutti i file binari
+*.bin
+
+# Ignora i file di log
+*.log
+
+# Ignora le cartelle temporanee
+tmp/
+
+# Ignora i file di backup
+*~
+
+# ignora target
+target/

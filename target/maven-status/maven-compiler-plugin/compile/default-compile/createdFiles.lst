@@ -17,4 +17,5 @@ com\tests\generic\repository\ConnectorDbMysql.class
 com\tests\generic\repository\FileExcelsEstractor$1.class
 com\tests\generic\entitis\PysicalDbEntity.class
 com\tests\generic\store\FconfStore.class
+com\tests\guidateste2e\Tests.class
 com\tests\fileconf\Session.class
